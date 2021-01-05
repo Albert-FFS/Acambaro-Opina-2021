@@ -1,0 +1,71 @@
+:root{
+    --Color1:#000000;
+    --Color2:#212930;
+    --Color3:#303030;
+    --Color4:#5b5b5b;
+    --Color5:#808080;
+    --Color6:#c3c8cd;
+    --Color7:#c0c0c0;
+    --Color8:#FFFFFF;
+}
+h1{
+    color:  var(--Color7);
+    font-size: 5em;
+}
+#Logo{
+    height: 10em;
+}
+.Cards h3{
+    font-size: 1em;
+    z-index: 1;
+    background:  var(--Color6);
+}
+.Cards a h2{    
+    font-size: 1em;
+}
+.ImgCard{
+    z-index: 0;
+    width: 60vw;
+}
+#Note{
+    width: 95%;
+    margin: 3vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: var(--Color6);
+    border-radius: 5%;
+    transition: 5s linear;
+    overflow: hidden;
+    padding: 3% 2%;
+}
+#Note h2{
+    font-size: 2em;
+    text-align: center;
+}
+#Note h3{
+    font-size: .7em;
+    position: relative;
+    right: -30%;
+}
+#Note img{
+    background-size: cover;
+    width: 100%;
+}
+#Note p{
+    margin: 5% 2%;
+    font-size: 1em;
+}
+#Note iframe{
+    width: 480px;
+    height: 270px;
+    margin: 3% 1%;
+}
+#Home{
+    font-size: 4em;
+    margin: 1em;
+    padding: 1em;
+}
