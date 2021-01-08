@@ -202,3 +202,7 @@ body{
     background: var(--Color7);
     border: 2px solid var(--Color5)    
 }
+.fb-comments{
+    width: 98%;
+    height: 30vh;
+}
