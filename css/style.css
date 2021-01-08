@@ -203,6 +203,5 @@ body{
     border: 2px solid var(--Color5)    
 }
 .fb-comments{
-    width: 98%;
-    height: 500px;
+    width: 100%;
 }
