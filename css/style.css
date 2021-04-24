@@ -175,6 +175,10 @@ body{
 #Information{
     
 }
+#Compartir{
+    margin: 5px 1em;
+    
+}
 #Note{
     width: 95%;
     margin: 3vh;
@@ -203,5 +207,5 @@ body{
     border: 2px solid var(--Color5)    
 }
 .fb-comments{
-    width: 100%;
+    width: 98%;
 }
